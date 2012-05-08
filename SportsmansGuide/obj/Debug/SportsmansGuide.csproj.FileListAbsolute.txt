@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\dev\SportsmansGuide\bin\SportsmansGuide.dll
+C:\inetpub\wwwroot\dev\SportsmansGuide\bin\SportsmansGuide.pdb
+C:\inetpub\wwwroot\dev\SportsmansGuide\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\dev\SportsmansGuide\obj\Debug\SportsmansGuide.dll
+C:\inetpub\wwwroot\dev\SportsmansGuide\obj\Debug\SportsmansGuide.pdb

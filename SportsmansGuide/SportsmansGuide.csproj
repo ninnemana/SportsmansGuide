@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A0EAE496-074B-4D63-BC35-43347A4D0D4B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SportsmansGuide</RootNamespace>
+    <AssemblyName>SportsmansGuide</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\SportsmansGuide.dll" />
+    <Content Include="bin\SportsmansGuide.pdb" />
+    <Content Include="category.aspx" />
+    <Content Include="css\category.css" />
+    <Content Include="css\hitch.css" />
+    <Content Include="css\lookup.css" />
+    <Content Include="css\master.css" />
+    <Content Include="css\shadowbox.css" />
+    <Content Include="img\accessories.png" />
+    <Content Include="img\ajax-spinner.gif" />
+    <Content Include="img\accessoriesCorner.png" />
+    <Content Include="img\ball_mounts.png" />
+    <Content Include="img\buyNow.png" />
+    <Content Include="img\cargoManagementCorner.png" />
+    <Content Include="img\btnSearch.jpg" />
+    <Content Include="img\cargo_management.png" />
+    <Content Include="img\close.png" />
+    <Content Include="img\curtLogo_onBlack.png" />
+    <Content Include="img\electrical.png" />
+    <Content Include="img\hitches.png" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\moreInfo.png" />
+    <Content Include="img\next.png" />
+    <Content Include="img\pause.png" />
+    <Content Include="img\play.png" />
+    <Content Include="img\previous.png" />
+    <Content Include="img\security.png" />
+    <Content Include="img\specializedtowingCorner.png" />
+    <Content Include="img\hitch.png" />
+    <Content Include="img\home_BringIt_scaled.jpg" />
+    <Content Include="img\electricalCorner.png" />
+    <Content Include="img\ballmountsCorner.png" />
+    <Content Include="img\securityCorner.png" />
+    <Content Include="img\pdf-icon.png" />
+    <Content Include="img\specialized_towing.png" />
+    <Content Include="img\tabs\accessories_tab.jpg" />
+    <Content Include="img\tabs\ballmounts_tab.jpg" />
+    <Content Include="img\tabs\cargomanagement_tab.jpg" />
+    <Content Include="img\tabs\electrical_tab.jpg" />
+    <Content Include="img\tabs\hitches_tab.jpg" />
+    <Content Include="img\tabs\security_tab.jpg" />
+    <Content Include="img\tabs\specializedtowing_tab.jpg" />
+    <Content Include="img\tabs\trailerballs_tab.jpg" />
+    <Content Include="img\trailerballsCorner.png" />
+    <Content Include="img\hitchesCorner.png" />
+    <Content Include="img\trailer_balls.png" />
+    <Content Include="img\turqCorner.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\category.js" />
+    <Content Include="js\lookup.js" />
+    <Content Include="js\shadowbox.js" />
+    <Content Include="lookup.aspx" />
+    <Content Include="Multi.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Categories.cs" />
+    <Compile Include="category.aspx.cs">
+      <DependentUpon>category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="category.aspx.designer.cs">
+      <DependentUpon>category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LINQ.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LINQ.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="lookup.aspx.cs">
+      <DependentUpon>lookup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lookup.aspx.designer.cs">
+      <DependentUpon>lookup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Multi.aspx.cs">
+      <DependentUpon>Multi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Multi.aspx.designer.cs">
+      <DependentUpon>Multi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductConnector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LINQ.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LINQ.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LINQ.dbml.layout">
+      <DependentUpon>LINQ.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56457</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
